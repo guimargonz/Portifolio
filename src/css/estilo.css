@@ -212,6 +212,28 @@ body{
     display: none;
 }
 
+.projetos .btn-esconder-projetos {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    width: 180px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+
+.projetos .btn-esconder-projetos:hover {
+    background-color: #d7b83c;
+    transition: 0.3s;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
