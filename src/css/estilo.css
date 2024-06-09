@@ -145,10 +145,13 @@ body{
     position: relative;
     display: none;
     border-radius: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .projetos .projeto.ativo{
     display: block;
+    opacity: 1;
 }
 
 .projetos .projeto img{
